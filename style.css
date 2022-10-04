@@ -1,0 +1,24 @@
+@import url('https://fonts.google.com/share?selection.family=Bebas%20Neue%7CMontserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
+html {
+    background-color:rgba(122, 191, 191, .5);
+}
+
+body {
+    background-color:#F2F2F2;
+    margin:0 auto;
+    display:grid;
+    width:414px;
+}
+
+h1, h2, h3, nav a, nav span, figcaption, menu li, .socials li, footer {
+    font-family:'Bebas Neue', cursive;
+}
+
+p, dt, dd, li, nav, input, ::placeholder {
+    font-family:'Montserrat', sans-serif;
+}
+
+nav a, nav span, figcaption, menu li, .socials li, footer {
+    font-size:20px;
+}
